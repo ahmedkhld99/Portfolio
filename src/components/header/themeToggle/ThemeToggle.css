@@ -1,0 +1,25 @@
+.theme-toggle-btn {
+  padding: 0;
+  border: none !important;
+  background: transparent;
+  color: inherit;
+  outline: none !important;
+  box-shadow: none !important;
+  line-height: 1;
+}
+
+.theme-toggle-btn:hover {
+  opacity: 0.7;
+}
+
+.theme-toggle-btn:focus,
+.theme-toggle-btn:active,
+.theme-toggle-btn:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.theme-toggle-btn:active {
+  transform: none !important;
+}

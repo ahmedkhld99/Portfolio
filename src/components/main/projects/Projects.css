@@ -1,0 +1,14 @@
+.projects-parent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh !important;
+  align-items: center;
+}
+
+.projects-parent h1 span {
+  color: var(--color-background-primary);
+}
+
+.projects-parent h1 {
+  cursor: default;
+}

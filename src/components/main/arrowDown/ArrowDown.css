@@ -1,0 +1,28 @@
+/* ArrowDown.css */
+
+.action-style {
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+  justify-self: center;
+  align-items: center;
+  animation: ScrollAction 2s ease-in-out infinite;
+  margin-top: 18px;
+}
+
+@keyframes ScrollAction {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.btn-style {
+  background: none;
+  outline: unset;
+  border: unset;
+  cursor: default;
+}

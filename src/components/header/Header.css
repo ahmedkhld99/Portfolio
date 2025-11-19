@@ -1,0 +1,25 @@
+/* header.js */
+.page-title {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.theme-toggle {
+  padding-right: 10px !important;
+}
+
+.toggle {
+  border: unset !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.theme-toggle-desktop {
+  padding-right: 10px;
+}
+
+@media (min-width: 992px) {
+  .theme-toggle-mobile {
+    display: none !important;
+  }
+}

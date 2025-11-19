@@ -1,0 +1,142 @@
+.skills-container {
+  display: flex;
+  height: fit-content !important;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 150px;
+  align-items: center;
+}
+
+.skills-container h1 span {
+  color: var(--color-background-primary);
+}
+.summary-container h2 {
+  cursor: default;
+}
+.skills-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  place-self: flex-start;
+  margin-left: 40px;
+}
+
+.sort p:first-child {
+  color: gold;
+}
+
+.sort p:first-child span {
+  color: white;
+}
+
+.skills-child .skills-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-grandson ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.skills-grandson li {
+  background-color: var(--color-primary-elements);
+  border-radius: 7px;
+  list-style: none;
+  width: 450px;
+  padding: 10px;
+  color: white !important;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  cursor: default;
+  transition: 0.2s;
+}
+
+.skills-grandson li:hover {
+  background-color: #19181b;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.skill-icon {
+  font-size: 25px;
+  background-color: var(--color-background-primary);
+  border-radius: 50%;
+  padding: 9px;
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+}
+
+@media (max-width: 1100px) {
+  .skills-container {
+    gap: 15px;
+  }
+  .skills-child {
+    flex-direction: column;
+  }
+
+  .skills-grandson li {
+    width: 360px;
+    gap: 10px;
+  }
+
+  .skills-grandson .skill-name {
+    font-size: 11px;
+  }
+  .skill-icon {
+    font-size: 18px;
+    padding: 8px;
+  }
+  .sort {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 925px) {
+  .skills-container {
+    gap: 15px;
+  }
+  .skills-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-grandson li {
+    width: 260px;
+    gap: 10px;
+  }
+
+  .skills-grandson .skill-name {
+    font-size: 10px;
+  }
+  .skill-icon {
+    font-size: 15px;
+    padding: 7px;
+  }
+}
+
+@media (max-width: 655px) {
+  .skills-child .skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.gold-text {
+  color: #ffd900;
+  text-shadow: 0 0 8px #ffd90079;
+}

@@ -1,0 +1,241 @@
+.contact-container {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh !important;
+  justify-content: center;
+}
+@media (max-width: 652px) {
+  .contact-container {
+    margin-top: 400px;
+  }
+}
+
+.contact-container h1 {
+  margin-bottom: 60px;
+}
+[data-bs-theme="light"] .contact-container h1 {
+  color: #060010;
+}
+
+.contact-container h1 span {
+  color: var(--color-background-primary);
+}
+.cont-parent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  width: 100%;
+  gap: 100px;
+  justify-content: center;
+}
+
+/* @media (max-width: 940px) {
+  .cont-parent {
+    margin-top: 30px;
+    width: 70%;
+    gap: 50px;
+  }
+} */
+
+.cont-parent .footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-self: center;
+}
+.cont-parent .footer-container div {
+  text-align: start;
+}
+.con-info h2 {
+  font-size: 18px;
+}
+
+.con-info p {
+  margin: 0;
+}
+
+[data-bs-theme="light"] .footer-container p {
+  color: #060010;
+}
+[data-bs-theme="light"] .footer-container span {
+  color: #060010;
+}
+[data-bs-theme="light"] .contact-container p {
+  color: #060010;
+}
+[data-bs-theme="light"] .footer-container h2 {
+  color: #060010;
+}
+
+.con-info div {
+  margin-bottom: 10px;
+}
+
+.con-info a {
+  color: #4f30be;
+  margin-right: 10px;
+}
+
+.con-info a:hover {
+  color: var(--color-background-primary);
+  margin-right: 10px;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff08;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1107px) {
+  .form-wrapper {
+    width: 414px;
+  }
+}
+
+@media (max-width: 570px) {
+  .form-wrapper {
+    padding: 20px;
+    width: 80%;
+  }
+}
+
+[data-bs-theme="light"] .form-wrapper {
+  background: #ffffff6e;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff1a;
+}
+.form-wrapper h2 {
+  font-size: 24px;
+}
+
+[data-bs-theme="light"] .form-wrapper h2 {
+  color: #060010 !important;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.form-wrapper textarea {
+  height: 100px;
+}
+
+[data-bs-theme="light"] .form-wrapper input {
+  background: #7a7a7a6c;
+  color: rgb(0, 0, 0);
+}
+
+[data-bs-theme="light"] .form-wrapper textarea {
+  background: #7a7a7a6c;
+  color: rgb(0, 0, 0);
+}
+
+.form-wrapper input:focus,
+.form-wrapper textarea:focus {
+  outline: unset;
+}
+
+.form-wrapper input::placeholder,
+.form-wrapper textarea::placeholder {
+  color: #888;
+}
+
+.form-wrapper button {
+  width: 50%;
+  padding: 10px;
+  background: var(--color-background-primary);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@media (max-width: 940px) {
+  .cont-parent {
+    margin-top: 30px;
+    width: 80%;
+    gap: 50px;
+  }
+  .end-con p {
+    font-size: 14px;
+  }
+  .con-info div {
+    font-size: 12px;
+  }
+  .form-wrapper h2 {
+    font-size: 18px;
+  }
+  .soc-icons a {
+    font-size: 20px;
+  }
+  .form-wrapper input::placeholder,
+  .form-wrapper textarea::placeholder {
+    font-size: 10px;
+  }
+  .form-wrapper input,
+  .form-wrapper textarea {
+    padding: 8px;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  .form-wrapper textarea {
+    height: 60px;
+  }
+  .form-wrapper button {
+    font-size: 10px;
+    width: 50%;
+  }
+}
+@media (max-width: 652px) {
+  .cont-parent {
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+  }
+  .footer-container {
+    gap: 20px !important;
+  }
+}
+
+/* @media (max-width: 570px) {
+  .form-wrapper input {
+    font-size: 10px;
+  }
+  .form-wrapper textarea {
+    font-size: 10px;
+  }
+  .form-wrapper label {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .form-wrapper h2 {
+    font-size: 14px;
+  }
+} */
+
+.form-wrapper button:hover {
+  background: #3916b99a;
+}
