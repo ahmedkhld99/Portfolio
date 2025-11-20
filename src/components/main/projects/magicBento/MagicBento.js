@@ -13,15 +13,16 @@ const cardData = [
     title: "",
     description: "",
     label: "Calculator by React.js",
-    link: "https://calculator-le79.vercel.app/",
+    link: "https://ahmedkhld99.github.io/calculator/",
   },
   {
     color: "#060010e0",
     title: "",
     description: "",
     label: "To-Do List by React.js",
-    link: "https://to-do-ten-murex.vercel.app/",
+    link: "https://ahmedkhld99.github.io/To-Do/",
   },
+
   {
     color: "#060010e0",
     title: "",

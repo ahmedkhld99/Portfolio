@@ -176,7 +176,7 @@ export default function NavBar() {
         {isDesktop && (
           <Box sx={{ display: "flex", gap: 4, alignItems: "center" }}>
             <NavLink section="home" label="Home" />
-            <NavLink section="summary" label="Summary" offset={scrollOffset} />
+            <NavLink section="summary" label="About Me" offset={scrollOffset} />
             <NavLink section="skills" label="Skills" offset={scrollOffset} />
             <NavLink
               section="projects"
@@ -217,7 +217,7 @@ export default function NavBar() {
           />
           <NavLink
             section="summary"
-            label="Summary"
+            label="About Me"
             mobile
             onClose={handleMenuClose}
           />

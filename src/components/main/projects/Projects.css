@@ -1,7 +1,8 @@
 .projects-parent {
   display: flex;
   flex-direction: column;
-  height: 100vh !important;
+  min-height: 80vh !important;
+  margin-bottom: 150px;
   align-items: center;
 }
 
@@ -12,3 +13,8 @@
 .projects-parent h1 {
   cursor: default;
 }
+
+/* @media (max-width: 652px) {
+  .projects-parent {
+  }
+} */

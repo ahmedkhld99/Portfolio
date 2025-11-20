@@ -3,11 +3,12 @@
 .action-style {
   display: flex;
   flex-direction: column;
-  width: min-content;
-  justify-self: center;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
   animation: ScrollAction 2s ease-in-out infinite;
   margin-top: 18px;
+  margin-bottom: 150px;
 }
 
 @keyframes ScrollAction {
@@ -25,4 +26,7 @@
   outline: unset;
   border: unset;
   cursor: default;
+  margin: 0;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }

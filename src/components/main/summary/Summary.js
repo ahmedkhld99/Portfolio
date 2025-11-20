@@ -53,8 +53,8 @@ export default function Summary() {
               </button>
 
               <a
-                href="../../../../public/files/Ahmed Khaled.pdf"
-                download="Ahmed-Khaled.pdf"
+                href="/Ahmed Khaled.pdf"
+                download="Ahmed_Khaled_CV.pdf"
                 style={{ textDecoration: "none" }}>
                 <button className="summary-btn cv-btn">Download CV</button>
               </a>
